@@ -25,9 +25,9 @@ cta:
 #     </span>
 ---
 
-TidyWearable is a comprehensive computational framework for data processing and analysis of LC-MS data using [tidyverse](https://www.tidyverse.org/) principles.
+TidyWearable is a comprehensive computational framework for data processing and analysis of wearabel (smartwatch etc.) data using [tidyverse](https://www.tidyverse.org/) principles.
 
-Install tidywearable:
+Install `tidywearable`:
 
 ```
 remotes::install_gitlab("tidywearable/tidywearable")
@@ -43,7 +43,6 @@ install_tidywearable(from = "tidywearable.org")
 [More here](https://www.tidywearable.org/docs/chapter1/)
 
 Citation: [1 tidywearable](https://pubmed.ncbi.nlm.nih.gov/35902589/)
-[2 metid](https://pubmed.ncbi.nlm.nih.gov/34432001/)
-[3 massdatabase](https://pubmed.ncbi.nlm.nih.gov/35944213/)
+[2 laggedcor](https://pubmed.ncbi.nlm.nih.gov/34432001/)
 
 <a class="github-button" href="https://github.com/tidywearable" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star TidyWearable project</a><br><a class="github-button" href="https://github.com/tidywearable/tidywearable-website" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star the Project Docs template">Star TidyWearable tutorial</a><script async defer src="https://buttons.github.io/buttons.js"></script>
