@@ -34,7 +34,7 @@ social:
   link: /#contact
 - icon: github
   icon_pack: fab
-  link: https://github.com/tidymass
+  link: https://github.com/tidywearable
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/shenxt/

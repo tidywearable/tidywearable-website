@@ -1,7 +1,7 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
-title: "Install tidymass"
-linktitle: "1 Install tidymass"
+title: "Install tidywearable"
+linktitle: "1 Install tidywearable"
 author: admin
 type: book
 toc: true
@@ -39,7 +39,7 @@ Then open the RStudio
 
 ## Update R
 
-`tidymass` require R version > 4.1. Please update your R if the version < 4.1.
+`tidywearable` require R version > 4.1. Please update your R if the version < 4.1.
 
 You can check your R version in your console:
 
@@ -65,21 +65,21 @@ version
 
 If your R version is < 4.1, please download and install the [latest version of R](https://cran.r-project.org/mirrors.html), and then restart your R.
 
-## Install `tidymass` from `tidymass.org`
+## Install `tidywearable` from `tidywearable.org`
 
 Copy and paste the below code in your console.
 
 
 ```r
-source("https://www.tidymass.org/tidymass-packages/install_tidymass.txt")
-install_tidymass(from = "tidymass.org")
+source("https://www.tidywearable.org/tidywearable-packages/install_tidywearable.txt")
+install_tidywearable(from = "tidywearable.org")
 ```
 
-You can also use this method to install one specific package. For example, if you only want to install [metID](https://metid.tidymass.org/). 
+You can also use this method to install one specific package. For example, if you only want to install [metID](https://metid.tidywearable.org/). 
 
 
 ```r
-install_tidymass(from = "tidymass.org", which_package = "metid")
+install_tidywearable(from = "tidywearable.org", which_package = "metid")
 ```
 
 Demo video is bellow:
@@ -98,7 +98,7 @@ If above code doesn't work, try to change the `method` argument.
 
 5. "curl"
 
-## Install `tidymass` from `GitHub`
+## Install `tidywearable` from `GitHub`
 
 Copy and paste the below code in your console.
 
@@ -107,7 +107,7 @@ Copy and paste the below code in your console.
 if(!require(remotes)){
   install.packages("remotes")
 }
-remotes::install_github("tidymass/tidymass", dependencies = TRUE)
+remotes::install_github("tidywearable/tidywearable", dependencies = TRUE)
 ```
 
 ## Some issues
@@ -116,7 +116,7 @@ remotes::install_github("tidymass/tidymass", dependencies = TRUE)
 
 2. If there is a error like below:
 
-> Error: Failed to install 'tidymass' from GitHub: HTTP error 403. API rate limit exceeded for 171.66.10.237. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+> Error: Failed to install 'tidywearable' from GitHub: HTTP error 403. API rate limit exceeded for 171.66.10.237. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
 
 Try to resolve it by:
 
@@ -152,7 +152,7 @@ GITHUB_PAT=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
 
 And then restart R session and try again.
 
-## Install `tidymass` from `GitLab`
+## Install `tidywearable` from `GitLab`
 
 Copy and paste the below code in your console.
 
@@ -161,26 +161,26 @@ Copy and paste the below code in your console.
 if(!require(remotes)){
   install.packages("remotes")
 }
-remotes::install_gitlab("tidymass/tidymass", dependencies = TRUE)
+remotes::install_gitlab("tidywearable/tidywearable", dependencies = TRUE)
 ```
 
 
-## Install `tidymass` from `Gitee`
+## Install `tidywearable` from `Gitee`
 
-If you are in China, you can try to install `tidymass` from Gitee. Copy and paste the below code in your console.
+If you are in China, you can try to install `tidywearable` from Gitee. Copy and paste the below code in your console.
 
 
 ```r
 if(!require(remotes)){
   install.packages("remotes")
 }
-remotes::install_git(url = "https://gitee.com/tidymass/tidymass", dependencies = TRUE)
+remotes::install_git(url = "https://gitee.com/tidywearable/tidywearable", dependencies = TRUE)
 ```
 
 
-If you can't install `tidymass` successfully, please contact us by
+If you can't install `tidywearable` successfully, please contact us by
 
-{{< cta cta_text="📥 Contact us" cta_link="https://www.tidymass.org/#contact" >}}
+{{< cta cta_text="📥 Contact us" cta_link="https://www.tidywearable.org/#contact" >}}
 
 or leave me a comment below.
 
