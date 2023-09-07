@@ -17,7 +17,7 @@ slides:
 summary:
 tags:
 - Metabolomics
-title: tidyMass
+title: tidyWearable
 url_code: ""
 url_pdf: ""
 url_slides: ""

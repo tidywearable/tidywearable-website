@@ -17,7 +17,7 @@ slides:
 summary:
 tags:
 - Metabolomics
-title: massDatabase
+title: wearableDataset
 url_code: ""
 url_pdf: ""
 url_slides: ""
